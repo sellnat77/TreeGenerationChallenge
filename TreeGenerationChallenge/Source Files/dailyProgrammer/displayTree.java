@@ -7,9 +7,9 @@ public class displayTree extends treeCreator
 	public void createLeaves()
 	{
 		int k;
-		for(k = super.getTreeBase(); k < 0; k--)
+		for(k = 0; k < 65; k++)
 		{
-			
+			System.out.print("*");
 		}
 	}
 	
@@ -18,7 +18,7 @@ public class displayTree extends treeCreator
 		int k;
 		for(k = 0; k < 3; k++)
 		{
-			System.out.print(""+super.getTrunkStyle());
+			System.out.print(super.getTrunkStyle());
 		}
 	}
 
